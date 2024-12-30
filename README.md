@@ -30,7 +30,7 @@ Program memiliki beberapa fitur validasi:
 1. Pastikan Python sudah terinstal di sistem Anda
 2. Jalankan program dengan perintah:
    ```bash
-   python validasi_form.py
+   main.py
    ```
 3. Ikuti instruksi yang muncul di layar untuk memasukkan data
 
@@ -66,14 +66,14 @@ Program terdiri dari beberapa fungsi utama:
 
 ```
 === Form Pendaftaran ===
-Masukkan nama lengkap: John Doe
-Masukkan nomor telepon: 08123456789
-Masukkan email: john.doe@email.com
+Masukkan nama lengkap: Zizantara
+Masukkan nomor telepon: 082240000720
+Masukkan email: zizantara@mail.com
 
 Data pendaftaran valid.
-Nama: John Doe
-Telepon: 08123456789
-Email: john.doe@email.com
+Nama: Zizantara
+Telepon: 082240000720
+Email: zizantara@email.com
 ```
 
 ## Penanganan Error
@@ -83,9 +83,9 @@ Program akan menampilkan pesan error spesifik untuk setiap jenis kesalahan:
    ```
    Error: Nama hanya boleh berisi huruf!
    ```
-2. Jika nomor telepon mengandung karakter selain angka:
+2. Jika nomor telepon mengandung karakter selain angka dan kurang dari 11 digit:
    ```
-   Error: Nomor telepon hanya boleh berisi angka!
+   Error: Nomor telepon hanya boleh berisi angka dan minimal 11 digit!
    ```
 3. Jika email tidak mengandung @ dan .:
    ```
